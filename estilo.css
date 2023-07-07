@@ -1,0 +1,183 @@
+/*Desktop-meia janela*/
+@media screen and (min-width:500px) and (max-width:849px){
+body{
+    margin:0px;
+
+}
+#conteiner{
+    background-color:none;
+    overflow: hidden;
+
+
+}
+.subconteiner{
+    max-width:100%;
+
+    background-color: blueviolet;
+}
+
+#lateral{
+  max-width:100%;
+
+
+
+  background-repeat: no-repeat;
+} 
+@keyframes laUm {
+
+0% {background: blue;}    
+2% {background: blue;}
+6% {background: blue;}
+10% {background: blue;}
+90% {background: blue;}
+80% {background: blue;}
+100% {background: blue;}
+
+}
+.laUm{
+    font-family: bahnschrift;
+    width: 100%;
+    padding: 5px;
+    background-color: aquamarine;
+    color: aquamarine;
+    animation:laUm 20s infinite normal;
+}
+
+@keyframes laDois {
+    0% {background: rgba(255, 255, 255, 0);}
+    10% {background: rgba(248, 248, 248, 0);}
+    0% {color:rgba(255, 255, 255, 0);}
+    10% {color:rgba(253, 253, 253, 0);}
+    30% {color:rgba(255, 255, 255, 0);}
+    50% {color:rgb(14, 66, 82);}
+    100% {color:rgb(14, 66, 82);}
+    90% {background: rgb(0, 255, 98);}
+    100% {background: rgb(0, 255, 98);}
+
+}
+.laDois{
+    font-family: bahnschrift;
+    width: 100%;
+    padding:5px;
+    color: aquamarine;
+    animation:laDois 10s infinite normal;
+    text-align: right;
+
+}
+.caixaUm{
+    background-color:blueviolet;
+    width:100%;
+    padding:10px;
+    float:none;
+    box-sizing: none;
+    font-family: agency fb;
+}
+.caixaDois{
+    background-color: rgb(76, 76, 197);
+    width:100%;
+    padding: 10px;
+    float:none;
+    box-sizing: none;
+    font-family: agency fb;
+}
+.caixaTres{
+    background-color: brown;
+    width:100%;
+    padding:10px;
+    float:none;
+    box-sizing:none;
+    font-family: agency fb;
+}
+.lateralDir{
+    background-color:rgb(0, 255, 98);
+    padding:10px;
+    font-family: agency fb;
+}    
+}
+/*Desktop-aberto*/
+@media screen and (min-width:850px) and (max-width:1920px){
+    body{
+        margin:0px;
+    }
+    #conteiner{
+        background-color:aqua;
+        width:100%;
+        overflow: hidden;
+        display: flex;
+    }
+    /*    .subconteiner{
+        background-color: rgb(102, 36, 36);
+        display: flex;
+    }*/
+    #lateral{
+        width:20%;
+        height:auto;
+        padding:none;
+        margin: none;
+        float:none;
+        box-sizing: border-box;
+        border: 3px solid;
+        flex-direction:row-reverse;
+    }
+    .laUm{
+        background-color: rgb(19, 7, 70);
+        padding:23px;
+        color:antiquewhite;
+        font-family: bahnschrift;
+        height: auto;
+    }
+    .laDois{
+        background-color:rgb(19, 7, 70);
+        padding:23px;
+        color:aliceblue;
+        font-family: bahnschrift;
+        height: auto;
+    }
+    .lateralDir{
+        background-color: rgb(19, 7, 70);
+        width:20%;
+        padding:20px;
+        color:antiquewhite;
+        font-family: bahnschrift;
+    }
+    .caixaUm{
+        background-color:blueviolet;
+        padding:10px;
+        box-sizing: content-box;
+        font-family: agency fb;
+        font-size: 20px;
+        border:rgb(104, 183, 219) 10px solid;
+       
+        
+    }
+    .img1{
+        width:300px;
+    }
+    .caixaDois{
+        background-color: rgb(76, 76, 197);
+        width:100%;
+        padding: 10px;
+        float:none;
+        box-sizing: content-box;
+        font-family: agency fb;
+        font-size: 20px;
+        border:rgb(104, 183, 219) 10px solid;
+    }
+    .img2{
+        width:200px;
+    }
+    .caixaTres{
+        background-color: rgb(61, 42, 165);
+        width:100%;
+        padding:10px;
+        float:none;
+        box-sizing: content-box;
+        font-family: agency fb;
+        font-size:20px;
+        border:rgb(104, 183, 219) 5px solid;
+    }
+    .img3{
+        width:300px;
+    }
+
+}

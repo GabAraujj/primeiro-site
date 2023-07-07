@@ -1,0 +1,10 @@
+*encontrei problemas para o baner, não estão se alinhando com a pagina, sobrando um pequeno espaço no canto direito.
+- recomeçei o site
+- adicionei o baner
+- aprendi um pouco sobre animações de transição
+* usei no começo section marcando com id como conteiner mas depois troquei para div
+* quando se monta um site é preciso pensar no conteiner principal e os subconteiners que ficaram dentro dele e como
+irão se comportar, é preciso estimular e trabalhar nessa lógica. para que quando monte não fique "brotando" esses 
+espaços nas laterais ou no meio da página, é bem frustante.
+*Começei a estudar após ter acordado, insisti muito nessa animação do banner e perdi muito tempo, posso estar aprendendo
+algo que irá me ajudar muito ou somente perdendo tempo, espero que dê certo!
