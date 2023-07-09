@@ -8,3 +8,20 @@ irão se comportar, é preciso estimular e trabalhar nessa lógica. para que qua
 espaços nas laterais ou no meio da página, é bem frustante.
 *Começei a estudar após ter acordado, insisti muito nessa animação do banner e perdi muito tempo, posso estar aprendendo
 algo que irá me ajudar muito ou somente perdendo tempo, espero que dê certo!
+-------------------------------------------------------------------------------------------------------------------------
+Objetivo
+fazer um site responsivo para estudo, tema livre
+Ideias:
+- Games | Notícias
+
+
+Figma:
+https://www.figma.com/file/MgGlqaDdyk9ADaFnif8SFq/projeto-resp-01?type=design&node-id=0%3A1&mode=design&t=lyVfSfS0eYM0FmeE-1
+
+Fases:
+Fase 1 - Idéia
+Fase 2 - Construção wireframe
+->Não terá otimização para motores de busca
+->Definição de divs e spans
+->Adição das midias queries
+->Adição css básico
