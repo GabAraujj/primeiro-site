@@ -1,0 +1,60 @@
+/*desktop minimun size:400x700px*/
+@media (min-width:400px) and (max-width:730px){
+/*Corpo do site e fundo*/
+body{
+
+}
+/*conteiner banner*/
+.cb{
+
+}
+/*Container Menu*/
+.m{
+
+}
+/*subconteiner menu - links do menu*/
+.pg-01{
+
+}
+/*Conteiner Principal - Noticias da página*/
+.cpn{
+
+}
+/*Subconteiner Noticia - Notícia Principal*/
+.scnp{
+
+}
+/*Subconteiner Noticia principal - Imagem da notícia principal*/
+.imgp{
+
+}
+/*Subconteiner Noticia Principal - Caixa de texto da notícia principal*/
+.cxnp{
+
+}
+/*Subconteiner Noticia*/
+.scn{
+
+}
+/*Subconteiner Notícia - Imagem da notícia*/
+.img-scn{
+
+}
+.cxn{
+
+}
+/*Conteiner Rodapé Principal*/
+.crp{
+
+}
+/*Subconteiner Rodapé Principal - Logo do site*/
+.lg{
+
+}
+/*Subconteiner Rodapé Principal - Mapa do site*/
+.ms{
+
+}
+/*Subconteiner Rodapé Principal - Fonte das notícias*/
+.fn
+}
