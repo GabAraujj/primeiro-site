@@ -25,3 +25,5 @@ Fase 2 - Construção wireframe
 ->Definição de divs e spans
 ->Adição das midias queries
 ->Adição css básico
+Fase 3 - criação estrutura CSS
+Fase 4 - criação artes e inlcusão delas

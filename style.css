@@ -1,60 +1,207 @@
 /*desktop minimun size:400x700px*/
-@media (min-width:400px) and (max-width:730px){
+@media screen and (min-width:400px) and (max-width:730px){
 /*Corpo do site e fundo*/
+html{
+    height: 100%;
+}
 body{
-
+   
+    margin:0px;
+    background-color:none;
+    height:100%;
 }
 /*conteiner banner*/
 .cb{
-
+    height:200px;
+}
+#imgb{
+    width:100%;
+    height:200px;
 }
 /*Container Menu*/
 .m{
+    background-color:none;
+    width:100%;
+    position: relative;
 
 }
-/*subconteiner menu - links do menu*/
-.pg-01{
 
+#imgm{
+    width:100%;
+}
+/*subconteiner menu - links do menu*/
+.pg{
+    padding:5px;
+    background-color:none;
+
+    border-radius:5px;
+
+    text-align-last: center;
+   
+    display: block;
+
+}
+/*links do menu e página*/
+#linksMenu{
+    font-size: 15px;
+    font-family: agency fb;
+    text-decoration: none;
+    color:black;
+
+    width:100%;
+    position: relative;
+
+    top:10px;
 }
 /*Conteiner Principal - Noticias da página*/
 .cpn{
-
+    background-color:none;
+    width:100%;
+    margin:0px;
+    position: relative;
+    top:-5px;
 }
 /*Subconteiner Noticia - Notícia Principal*/
 .scnp{
-
+    background-color: rgb(72, 72, 173);
+    box-sizing: content-box;
+    width:80%;
+    height:300px;
+    position: relative;
+    left:10%;
+    top:0;
+    margin:5px;
 }
 /*Subconteiner Noticia principal - Imagem da notícia principal*/
-.imgp{
-
+#imgp{
+    width:100%;
+    height:300px;
 }
 /*Subconteiner Noticia Principal - Caixa de texto da notícia principal*/
 .cxnp{
+    background-color: rgba(24, 59, 56, 0.788);
+    box-sizing: content-box;
+    font-family:Bahnschrift;
+    color: aliceblue;
+    position: relative;
+    top:-35%;
+    height:30%;
+    padding:5px;
+    text-align: center;
 
 }
 /*Subconteiner Noticia*/
 .scn{
-
+    background-color: blue;
+    box-sizing: content-box;
+    width:50%;
+    height:250px;
+    position: relative;
+    top:0;
+    left:25%; 
+    margin:15px;
 }
 /*Subconteiner Notícia - Imagem da notícia*/
-.img-scn{
-
+#imgn{
+    width:100%;
+    height:250px;
 }
+/*Subconteiner Notícia - Caixa de texto notícia*/
 .cxn{
-
+    background-color: rgba(24, 59, 56, 0.788);
+    box-sizing: content-box;
+    font-family:Bahnschrift;
+    color: aliceblue;
+    position: relative;
+    top:-89px;
+    height:30%;
+    padding:5px;
+    font-size: 13px;
 }
 /*Conteiner Rodapé Principal*/
 .crp{
-
+    display: flex;
+    width: 100%;
+    position: absolute;
+    
 }
 /*Subconteiner Rodapé Principal - Logo do site*/
 .lg{
-
+    width:300px;
+    height: 280px;
+    background-color:rgba(26, 24, 24, 0.452);
+    position: relative;
+    top:20px;
+}
+#imgr{
+    width:100%;
+    position: relative;
+    top:50px;
 }
 /*Subconteiner Rodapé Principal - Mapa do site*/
 .ms{
-
+    width:300px;
+    height:280px;
+    position: relative;
+    background-color:rgba(26, 24, 24, 0.452);
+    padding-left: 30px;
+    overflow: hidden;
+  
+}
+.cxtr{
+    background-color:rgba(0, 255, 255, 0.137);
+    border-radius: 10px;
+    padding:10px;
+    width:100%;
+    height:100%;
+}
+ul, a{
+    list-style:none;
+    text-decoration: none;
+    margin: 0px;
+    padding:0px;
+}
+.lcmr{
+    color: rgb(11, 7, 75);
+    font-family: Bahnschrift SemiBold;
+    font-size: 15px;
+}
+.lcmr:hover{
+    color:aqua;
+    background-color:rgb(11, 7, 75);
+    padding:5px;
 }
 /*Subconteiner Rodapé Principal - Fonte das notícias*/
-.fn
+.fn{
+    font-family:Bahnschrift SemiBold;
+    background-color:rgba(26, 24, 24, 0.452);
+    
+}
+.fb{ 
+   color: rgb(105, 171, 233);
+   color: rgb(11, 7, 75);
+    padding-top: 10px;
+    padding-left:30px;
+    
+}
+.ftr{
+    margin:10px;
+
+}
+#imgfr{ 
+    width:40px;
+    margin: 5px;
+
+}
+.cifr{
+    width:100%;
+    height:43%;
+
+}
+#imgrf{
+    width:100%;
+    height:100%;
+    opacity:none;
+    float:left;
+}
 }
