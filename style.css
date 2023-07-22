@@ -1,14 +1,18 @@
 /*desktop minimun size:400x700px*/
-@media screen and (min-width:400px) and (max-width:730px){
+@media screen and (min-width:400px) and (max-width:700px){
 /*Corpo do site e fundo*/
 html{
     height: 100%;
 }
 body{
     margin:0px;
-    height:100%;
-    background-image: url(/arquivos/fcfb.jpg);
+    background-image:url(/arquivos/fundoPersonalizado2.png);
+    background-repeat: no-repeat;
+    height:3000px;
+
+        /*background-color: rgb(190, 32, 32);*/
 }
+
 /*conteiner banner*/
 .cb{
     height:200px;
@@ -27,83 +31,74 @@ body{
 #imgm{
     width:100%;
 }
-/*subconteiner menu - links do menu*/
-.pgP{
-    width:100%;
-    padding:10px;
-    margin: 5px;
-    background-color:rgb(167, 163, 163);
-    border-radius: 5px;
-    border: 5px rgb(24, 23, 23) solid;
-    text-align-last: center;
-}
-.pgP:hover{
-    background-color: rgb(83, 81, 81);
-    border:5px rgb(231, 219, 219) solid;
-}
+/*subconteiner menu - caixas do menu*/
+
 .pg{
     padding:10px;
-    margin: 5px;
+    height:20px;
+    width:100%;
+    margin: 2px;
+    position: relative;
+    top:8px;
     background-color:rgb(167, 163, 163);
     border-radius: 5px;
     border: 5px rgb(24, 23, 23) solid;
-    text-align-last: center;
+    text-align: center;
+  
 }
 .pg:hover{
     background-color:rgb(83, 81, 81);
     border:5px whitesmoke solid;
-    transition: 0.5s;
 }
 /*links do menu e página*/
-#linksMenuP{
-    font-size: 20px;
-    font-family: agency fb;
-    text-decoration: none;
-    color:black;
-    position: relative;
-    top:0;
-    text-align: center;
-}
-#linksMenuP:hover{
-    color:aliceblue;
-}
+
 #linksMenu{
-    font-size: 18px;
-    font-family: agency fb;
-    text-decoration: none;
+  
+    font-family: Bahnschrift;
     color:black;
-    width:100%;
     position: relative;
-    top:0;
+    top:-1px;
     text-align: center;
+    font-size: 3vw;
 }
 #linksMenu:hover{
     color:aliceblue;
-    font-size:20px;
 }
 /*Conteiner Principal - Noticias da página*/
 .cpn{
     background-color:none;
     width:100%;
-    margin:0px;
     position: relative;
-    top:-5px;
+    top:0px;
 }
 /*Subconteiner Noticia - Notícia Principal*/
-.scnp{
-    background-color: rgb(72, 72, 173);
-    box-sizing: content-box;
-    width:80%;
-    height:300px;
+.tnp{
+    background-color: black;
     position: relative;
-    left:10%;
-    top:0;
-    margin:5px;
+    top:70px;
+    left:-15px;
+    border-radius: 20px;
+    padding: 10px;
+    width:150px;
+}
+.txnp{
+    color:whitesmoke;
+    font-family:Bahnschrift;
+    font-size: 25px;
+}
+.scnp{
+    background-color:none;
+    width:90%;
+    height:400px;
+    position: relative;
+    left:5%;
+    top:0px;
+    margin:10px;
 }
 /*Subconteiner Noticia principal - Imagem da notícia principal*/
 #imgp{
     width:100%;
-    height:300px;
+    height:400px;
 }
 /*Subconteiner Noticia Principal - Caixa de texto da notícia principal*/
 .cxnp{
@@ -112,26 +107,68 @@ body{
     font-family:Bahnschrift;
     color: aliceblue;
     position: relative;
-    top:-35%;
+    top:-36%;
     height:30%;
-    padding:5px;
-    text-align: center;
+    padding:10px;
+    text-align:left;
 }
-/*Subconteiner Noticia*/
-.scn{
-    background-color: blue;
+/*Subconteiner Noticia pós principal*/
+.sucn{
     box-sizing: content-box;
-    width:50%;
-    height:250px;
+    width:80%;
+    height:400px;
     position: relative;
-    top:0;
-    left:25%; 
-    margin:15px;
+    top:0px;
+    left:9%; 
+    margin:10px;
 }
+.tn{
+    background-color: black;
+    border-radius: 20px;
+    width:150px;
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+    top:70px;
+    left:-20px;
+
+}
+.txn{
+    color:whitesmoke;
+    font-family:Bahnschrift;
+}
+
+/*Subconteiner Noticias Restantes*/
+.scn{
+    box-sizing: content-box;
+    width:80%;
+    height:400px;
+    position: relative;
+    top:0px;
+    left:9%; 
+    margin:10px;
+}
+.tn{
+    background-color: black;
+    border-radius: 20px;
+    width:150px;
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+    top:70px;
+    left:-20px;
+
+}
+.txn{
+    color:whitesmoke;
+    font-family:Bahnschrift;
+}
+
 /*Subconteiner Notícia - Imagem da notícia*/
 #imgn{
     width:100%;
-    height:250px;
+    height:400px;
+  
 }
 /*Subconteiner Notícia - Caixa de texto notícia*/
 .cxn{
@@ -140,45 +177,55 @@ body{
     font-family:Bahnschrift;
     color: aliceblue;
     position: relative;
-    top:-89px;
+    top:-36%;
     height:30%;
-    padding:5px;
+    padding:10px;
+    text-align: left;
     font-size: 13px;
+}
+.txsub{
+    font-size: 20px;
 }
 /*Conteiner Rodapé Principal*/
 .crp{
     display: flex;
     width: 100%;
-    position: absolute;
+    margin-top:70px;
 }
 /*Subconteiner Rodapé Principal - Logo do site*/
 .lg{
-    width:300px;
-    height: 216px;
-    background-color:rgba(26, 24, 24, 0.452);
+    width:40%;
+    background-color:rgba(26, 24, 24, 0.39);
     position: relative;
-    top:-1px;
+    top:0px;
 }
 #imgr{
     width:100%;
     position: relative;
-    top:50px;
+    top:20%;
 }
 /*Subconteiner Rodapé Principal - Mapa do site*/
 .ms{
-    width:300px;
-    height:216px;
+    width:40%;
     position: relative;
-    background-color:rgba(26, 24, 24, 0.452);
+    background-color:rgba(26, 24, 24, 0.39);
+    height:190px;
     padding-left: 30px;
-    overflow: hidden;
+    padding-top: 20px;
+}
+.tmp{
+    font-family:Bahnschrift SemiBold;
+    background-color: black;
+    color:whitesmoke;
+    border-radius:10px;
+    text-align: center;
+
 }
 .cxtr{
-    background-color:rgba(10, 241, 241, 0.137);
     border-radius: 10px;
     padding:10px;
     width:100%;
-    height:100%;
+
 }
 ul, a{
     list-style:none;
@@ -187,7 +234,7 @@ ul, a{
     padding:0px;
 }
 .lcmr{
-    color: rgb(11, 7, 75);
+    color: rgb(80, 12, 12);
     font-family: Bahnschrift SemiBold;
     font-size: 15px;
 }
@@ -199,14 +246,18 @@ ul, a{
 /*Subconteiner Rodapé Principal - Fonte das notícias*/
 .fn{
     font-family:Bahnschrift SemiBold;
-    background-color:rgba(26, 24, 24, 0.452);
-    
+    background-color:rgba(26, 24, 24, 0.39);
+    width:40%;
+    padding-top: 20px;
 }
 .fb{ 
-   color: rgb(105, 171, 233);
-   color: rgb(11, 7, 75);
-    padding-top: 10px;
-    padding-left:30px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    width:100px;
+    position: relative;
+    left:40px;
 }
 .ftr{
     margin:10px;
@@ -215,16 +266,15 @@ ul, a{
     width:40px;
     margin: 5px;
 }
-.cifr{ /*conteiner imagem final rodapé*/
+/*.cifr{
     width:100%;
-    height:33%;
+    opacity:80%;
+    position: absolute;
+    top:4000px;
 }
-#imgrf{ /*imagem rodapé final*/
+#imgrf{ 
     width:100%;
-    height:100%;
-    opacity:none;
-    float:left;
-}
+}*/
 }
 /*desktop medium size:800x1024px*/
 @media screen and (min-width:701px) and (max-width:1024px){
@@ -235,11 +285,13 @@ html{
 body{
     margin:0px;
     height:100%;
-    background-image: url(/arquivos/fcfb.jpg);
+    background-image: url(/arquivos/fundoPersonalizado3.png);
+    background-repeat: no-repeat;
 }
 /*conteiner banner*/
 .cb{
     height:200px;
+    width:100%;
 }
 #imgb{
     width:100%;
@@ -251,12 +303,13 @@ body{
     width:100%;
     height:70px;
     display: flex;
+    justify-content: center;
 }
 #imgm{
     width:100%;
 }
 /*subconteiner menu - links do menu*/
-.pgP{
+/*.pgP{
     width:100%;
     padding:10px;
     margin: 5px;
@@ -268,14 +321,17 @@ body{
 .pgP:hover{
     background-color: rgb(83, 81, 81);
     border:5px rgb(231, 219, 219) solid;
-}
+}*/
 .pg{
-    padding:10px;
-    margin: 5px;
+    padding:20px;
+    width:10%;
+    margin:5px;
     background-color:rgb(167, 163, 163);
     border-radius: 5px;
     border: 5px rgb(24, 23, 23) solid;
     text-align-last: center;
+    position: relative;
+    top:1px;
 }
 .pg:hover{
     background-color:rgb(83, 81, 81);
@@ -283,7 +339,7 @@ body{
     transition: 0.5s;
 }
 /*links do menu e página*/
-#linksMenuP{
+/*#linksMenuP{
     font-size: 20px;
     font-family: agency fb;
     text-decoration: none;
@@ -294,20 +350,23 @@ body{
 }
 #linksMenuP:hover{
     color:aliceblue;
-}
+}*/
 #linksMenu{
-    font-size: 18px;
-    font-family: agency fb;
+    font-size: 3vw;
+    font-family: Bahnschrift;
     text-decoration: none;
     color:black;
     width:100%;
     position: relative;
-    top:0;
+    left:-1px;
+    top:-10px;
     text-align: center;
 }
 #linksMenu:hover{
     color:aliceblue;
-    font-size:20px;
+    font-size:35px;
+    position: relative;
+    top:-0px;
 }
 /*Conteiner Principal - Noticias da página*/
 .cpn{
@@ -315,52 +374,106 @@ body{
     width:100%;
     margin:0px;
     position: relative;
-    top:-5px;
+    top:20px;
 }
 /*Subconteiner Noticia - Notícia Principal*/
-.scnp{
-    background-color: rgb(72, 72, 173);
-    box-sizing: content-box;
-    width:80%;
-    height:300px;
+.tnp{
+    background-color: black;
     position: relative;
-    left:10%;
-    top:0;
-    margin:5px;
+    top:70px;
+    left:-15px;
+    border-radius: 20px;
+    padding: 10px;
+    width:150px;
+}
+.txnp{
+    color:whitesmoke;
+    font-family:Bahnschrift;
+    font-size: 25px;
+}
+.scnp{
+    background-color:none;
+    width:90%;
+    height:500px;
+    position: relative;
+    left:5%;
+    top:-20px;
+    margin:10px;
 }
 /*Subconteiner Noticia principal - Imagem da notícia principal*/
 #imgp{
     width:100%;
-    height:300px;
+    height:500px;
 }
 /*Subconteiner Noticia Principal - Caixa de texto da notícia principal*/
 .cxnp{
     background-color: rgba(24, 59, 56, 0.788);
     box-sizing: content-box;
-    font-family:Bahnschrift;
     color: aliceblue;
     position: relative;
-    top:-35%;
+    top:-174px;
     height:30%;
-    padding:5px;
-    text-align: center;
+    padding:10px;
+    text-align: left;
 
 }
-/*Subconteiner Noticia*/
-.scn{
-    background-color: blue;
+.txsub{
+    font-size:25px;
+    font-family:Bahnschrift;
+}
+/*Subconteiner Noticia pós principal*/
+.sucn{
     box-sizing: content-box;
-    width:50%;
-    height:250px;
+    width:80%;
+    height:500px;
     position: relative;
-    top:0;
-    left:25%; 
-    margin:15px;
+    top:-10px;
+    left:9%; 
+    margin:10px;
+}
+.tn{
+    background-color: black;
+    border-radius: 20px;
+    width:150px;
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+    top:70px;
+    left:-20px;
+
+}
+.txn{
+    color:whitesmoke;
+    font-family:Bahnschrift;
+}
+/*Subconteiner Noticia Restantes*/
+.scn{
+    box-sizing: content-box;
+    width:80%;
+    height:500px;
+    position: relative;
+    top:-10px;
+    left:9%; 
+    margin:10px;
+}
+.tn{
+    background-color: black;
+    border-radius: 20px;
+    width:150px;
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+    top:70px;
+    left:-20px;
+}
+.txn{
+    color:whitesmoke;
+    font-family:Bahnschrift;
 }
 /*Subconteiner Notícia - Imagem da notícia*/
 #imgn{
     width:100%;
-    height:250px;
+    height:500px;
 }
 /*Subconteiner Notícia - Caixa de texto notícia*/
 .cxn{
@@ -369,7 +482,7 @@ body{
     font-family:Bahnschrift;
     color: aliceblue;
     position: relative;
-    top:-89px;
+    top:-164px;
     height:30%;
     padding:5px;
     font-size: 13px;
@@ -379,33 +492,43 @@ body{
     display: flex;
     width: 100%;
     position: absolute;
+    margin-top: 60px;
+    background-color:rgba(26, 24, 24, 0.452);
     
 }
 /*Subconteiner Rodapé Principal - Logo do site*/
 .lg{
     width:300px;
-    height: 280px;
-    background-color:rgba(26, 24, 24, 0.452);
+    height: 250px;
     position: relative;
-    top:-1px;
+    top:-30px;
 }
 #imgr{
-    width:100%;
+    width:70%;
     position: relative;
-    top:80px;
+    top:100px;
+    left:30px;
 }
 /*Subconteiner Rodapé Principal - Mapa do site*/
 .ms{
     width:300px;
-    height:280px;
+    height:250px;
     position: relative;
-    background-color:rgba(26, 24, 24, 0.452);
     padding-left: 30px;
+    padding-top: 30px;
     overflow: hidden;
   
 }
+.tmp{
+    font-family:Bahnschrift SemiBold;
+    background-color: black;
+    color:whitesmoke;
+    border-radius:10px;
+    text-align: center;
+
+}
 .cxtr{
-    background-color:rgba(0, 255, 255, 0.137);
+
     border-radius: 10px;
     padding:10px;
     width:100%;
@@ -430,26 +553,31 @@ ul, a{
 /*Subconteiner Rodapé Principal - Fonte das notícias*/
 .fn{
     font-family:Bahnschrift SemiBold;
-    background-color:rgba(26, 24, 24, 0.452);
     
 }
 .fb{ 
-   color: rgb(105, 171, 233);
-   color: rgb(11, 7, 75);
-    padding-top: 10px;
-    padding-left:30px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    width:100px;
+    position: relative;
+    left:90px;
+    top:30px;
     
 }
 .ftr{
     margin:10px;
-
+    padding-top: 40px;
+    position: relative;
+    left: 50px;
 }
 #imgfr{ 
     width:40px;
     margin: 5px;
 
 }
-.cifr{
+/*.cifr{
     width:100%;
     height:43%;
 
@@ -459,7 +587,7 @@ ul, a{
     height:100%;
     opacity:none;
     float:left;
-}
+}*/
 }
 /*desktop max size:1024x1440px*/
 @media screen and (min-width:1024px) and (max-width:1440px){
@@ -470,15 +598,16 @@ html{
 body{
     margin:0px;
     height:100%;
-    background-image: url(/arquivos/fcfb.jpg);
+    background-image: url(/arquivos/fundoPersonalizado4.png);
+    background-repeat: no-repeat;
 }
 /*conteiner banner*/
 .cb{
-    height:200px;
+    height:400px;
 }
 #imgb{
     width:100%;
-    height:200px;
+    height:400px;
 }
 /*Container Menu*/
 .m{
@@ -491,7 +620,7 @@ body{
     width:100%;
 }
 /*subconteiner menu - links do menu*/
-.pgP{
+/*.pgP{
     width:100%;
     padding:10px;
     margin: 5px;
@@ -503,9 +632,10 @@ body{
 .pgP:hover{
     background-color: rgb(83, 81, 81);
     border:5px rgb(231, 219, 219) solid;
-}
+}*/
 .pg{
     padding:10px;
+    width:100%;
     margin: 5px;
     background-color:rgb(167, 163, 163);
     border-radius: 5px;
@@ -515,10 +645,10 @@ body{
 .pg:hover{
     background-color:rgb(83, 81, 81);
     border:5px whitesmoke solid;
-    transition: 0.5s;
+
 }
 /*links do menu e página*/
-#linksMenuP{
+/*#linksMenuP{
     font-size: 20px;
     font-family: agency fb;
     text-decoration: none;
@@ -529,20 +659,22 @@ body{
 }
 #linksMenuP:hover{
     color:aliceblue;
-}
+}*/
 #linksMenu{
-    font-size: 18px;
-    font-family: agency fb;
+    font-size: 35px;
+    font-family: Bahnschrift;
     text-decoration: none;
     color:black;
     width:100%;
     position: relative;
-    top:0;
+    top:-3px;
     text-align: center;
 }
 #linksMenu:hover{
     color:aliceblue;
-    font-size:20px;
+    font-size:35px;
+    position: relative;
+    top:-5px;
 }
 /*Conteiner Principal - Noticias da página*/
 .cpn{
@@ -550,23 +682,37 @@ body{
     width:100%;
     margin:0px;
     position: relative;
-    top:-5px;
+    top:40px;
+}
+.tnp{
+    background-color: black;
+    position: relative;
+    top:70px;
+    left:-15px;
+    border-radius: 20px;
+    padding: 10px;
+    width:150px;
+}
+.txnp{
+    color:whitesmoke;
+    font-family:Bahnschrift;
+    font-size: 25px;
 }
 /*Subconteiner Noticia - Notícia Principal*/
 .scnp{
-    background-color: rgb(72, 72, 173);
+    background-color:none;
     box-sizing: content-box;
-    width:80%;
-    height:300px;
+    width:90%;
+    height:700px;
     position: relative;
-    left:10%;
-    top:0;
+    left:60px;
+    top:-40px;
     margin:5px;
 }
 /*Subconteiner Noticia principal - Imagem da notícia principal*/
 #imgp{
     width:100%;
-    height:300px;
+    height:700px;
 }
 /*Subconteiner Noticia Principal - Caixa de texto da notícia principal*/
 .cxnp{
@@ -575,27 +721,69 @@ body{
     font-family:Bahnschrift;
     color: aliceblue;
     position: relative;
-    top:-35%;
+    top:-253px;
     height:30%;
-    padding:5px;
-    text-align: center;
+    text-align:left;
+    padding: 20px;
+}
+.txsub{
+    font-family:Bahnschrift;
+    font-size: 30px;
 
 }
-/*Subconteiner Noticia*/
-.scn{
-    background-color: blue;
+/*Subconteiner Noticia pós principal*/
+.sucn{
     box-sizing: content-box;
-    width:50%;
-    height:250px;
+    width:80%;
+    height:500px;
     position: relative;
-    top:0;
-    left:25%; 
-    margin:15px;
+    top:-30px;
+    left:135px; 
+    margin:10px;
+}
+.tn{
+    background-color: black;
+    border-radius: 20px;
+    width:150px;
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+    top:70px;
+    left:-20px;
+}
+.txn{
+    color:whitesmoke;
+    font-family:Bahnschrift;
+}
+
+/*Subconteiner Noticias Restantes*/
+.scn{
+    box-sizing: content-box;
+    width:80%;
+    height:500px;
+    position: relative;
+    top:-25px;
+    left:10%; 
+    margin:10px;
+}
+.tn{
+    background-color: black;
+    border-radius: 20px;
+    width:150px;
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+    top:70px;
+    left:-20px;
+}
+.txn{
+    color:whitesmoke;
+    font-family:Bahnschrift;
 }
 /*Subconteiner Notícia - Imagem da notícia*/
 #imgn{
     width:100%;
-    height:250px;
+    height:500px;
 }
 /*Subconteiner Notícia - Caixa de texto notícia*/
 .cxn{
@@ -604,9 +792,9 @@ body{
     font-family:Bahnschrift;
     color: aliceblue;
     position: relative;
-    top:-89px;
+    top:-193px;
     height:30%;
-    padding:5px;
+    padding:20px;
     font-size: 13px;
 }
 /*Conteiner Rodapé Principal*/
@@ -614,15 +802,15 @@ body{
     display: flex;
     width: 100%;
     position: absolute;
-    
+    margin-top:100px;
+    background-color: rgba(26, 24, 24, 0.452);
 }
 /*Subconteiner Rodapé Principal - Logo do site*/
 .lg{
-    width:300px;
-    height: 280px;
-    background-color:rgba(26, 24, 24, 0.452);
+    width:400px;
+    height: 350px;
     position: relative;
-    top:-1px;
+    top:0px;
 }
 #imgr{
     width:100%;
@@ -631,18 +819,29 @@ body{
 }
 /*Subconteiner Rodapé Principal - Mapa do site*/
 .ms{
-    width:300px;
-    height:280px;
+    width:400px;
+    height:250px;
     position: relative;
-    background-color:rgba(26, 24, 24, 0.452);
+
     padding-left: 30px;
     overflow: hidden;
   
 }
+.tmp{
+    font-family:Bahnschrift SemiBold;
+    background-color: black;
+    color:whitesmoke;
+    border-radius:10px;
+    text-align: center;
+    position: relative;
+    top:30px;
+
+}
 .cxtr{
-    background-color:rgba(0, 255, 255, 0.137);
+    position: relative;
+    top:40px;
     border-radius: 10px;
-    padding:10px;
+    padding-left:10px;
     width:100%;
     height:100%;
 }
@@ -665,18 +864,24 @@ ul, a{
 /*Subconteiner Rodapé Principal - Fonte das notícias*/
 .fn{
     font-family:Bahnschrift SemiBold;
-    background-color:rgba(26, 24, 24, 0.452);
+  
+    width:400px;
     
 }
 .fb{ 
-   color: rgb(105, 171, 233);
-   color: rgb(11, 7, 75);
-    padding-top: 10px;
-    padding-left:30px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    width:100px;
+    position: relative;
+    top:30px;
+    left:100px;
     
 }
 .ftr{
     margin:10px;
+    padding-top: 50px;
 
 }
 #imgfr{ 
@@ -684,15 +889,14 @@ ul, a{
     margin: 5px;
 
 }
-.cifr{
+/*.cifr{
     width:100%;
-    height:43%;
+    height:30%;
 
 }
 #imgrf{
     width:100%;
-    height:100%;
-    opacity:none;
-    float:left;
-}
+    float: left;
+    opacity:100%;
+}*/
 }
